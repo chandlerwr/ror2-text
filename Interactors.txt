@@ -6,10 +6,13 @@
 	"SURVIVOR_POD_OPEN_PANEL_CONTEXT" : "Open Panel",
 	"TELEPORTER_NAME": "Teleporter",
 	"TELEPORTER_BEGIN_CONTEXT": "Activate Teleporter..?",
-	"TELEPORTER_END_CONTEXT": "Enter Teleporter",
+	"TELEPORTER_END_CONTEXT": "We are LEAVING",
 
 	"BARREL1_NAME": "Barrel",
 	"BARREL1_CONTEXT": "Open barrel",
+
+	"DUMMYINTERACTION_NAME": "???",
+	"DUMMYINTERACTION_CONTEXT": "???",
 	
 	"LOCKBOX_NAME": "Rusty Lockbox",
 	"LOCKBOX_CONTEXT": "Open Rusty Lockbox",
@@ -63,6 +66,9 @@
 	"LUNAR_TERMINAL_NAME" : "Lunar Bud",
 	"LUNAR_TERMINAL_CONTEXT" : "Open Lunar Bud",
 
+	"LUNAR_REROLL_NAME" : "Slab",
+	"LUNAR_REROLL_CONTEXT" : "Refresh Shop",
+
 	"BAZAAR_UPGRADE_LUNAR_NAME" : "Slab",
 	"BAZAAR_UPGRADE_LUNAR_CONTEXT" : "Permanently upgrade Item Shop",
 
@@ -92,42 +98,42 @@
 	"CATEGORYCHEST_UTILITY_CONTEXT": "Open Chest - Utility",
 
 	//[SHRINES],
-	"SHRINE_HEALING_NAME": "Shrine of the Woods",
-	"SHRINE_HEALING_CONTEXT": "Offer to Shrine of the Woods",
-	"SHRINE_HEALING_USE_MESSAGE_2P": "<style=cShrine>You are embraced by the healing warmth of the Woods.</color>",
-	"SHRINE_HEALING_USE_MESSAGE": "<style=cShrine>{0} is embraced by the healing warmth of the Woods.</color>",
+	"SHRINE_HEALING_NAME": "Shrine of Alex",
+	"SHRINE_HEALING_CONTEXT": "Pay Alex",
+	"SHRINE_HEALING_USE_MESSAGE_2P": "<style=cShrine>Alex heals you.</color>",
+	"SHRINE_HEALING_USE_MESSAGE": "<style=cShrine>{0} is healed by Alex.</color>",
 	
 	"SHRINE_BLOOD_NAME": "Shrine of Blood",
-	"SHRINE_BLOOD_CONTEXT": "Offer to Shrine of Blood",
-	"SHRINE_BLOOD_USE_MESSAGE_2P": "<style=cShrine>You feel a searing pain. You have gained {1} gold.</color>",
-	"SHRINE_BLOOD_USE_MESSAGE": "<style=cShrine>{0} feels a searing pain, and has gained {1} gold.</color>",
+	"SHRINE_BLOOD_CONTEXT": "BLOOD FOR THE BLOOD GOD",
+	"SHRINE_BLOOD_USE_MESSAGE_2P": "<style=cShrine>You gave BLOOD TO THE BLOOD GOD. {1} SKULLS FOR HIS THRONE.</color>",
+	"SHRINE_BLOOD_USE_MESSAGE": "<style=cShrine>{0} gave BLOOD TO THE BLOOD GOD. {1} SKULLS FOR HIS THRONE.</color>",
 
-	"SHRINE_CHANCE_NAME": "Shrine of Chance",
-	"SHRINE_CHANCE_CONTEXT": "Offer to Shrine of Chance",
-	"SHRINE_CHANCE_SUCCESS_MESSAGE_2P": "<style=cShrine>You offer to the shrine and are rewarded!</color>",
-	"SHRINE_CHANCE_SUCCESS_MESSAGE": "<style=cShrine>{0} offered to the shrine and was rewarded!</color>",
-	"SHRINE_CHANCE_FAIL_MESSAGE_2P": "<style=cShrine>You offer to the shrine, but gain nothing.</color>",
-	"SHRINE_CHANCE_FAIL_MESSAGE": "<style=cShrine>{0} offered to the shrine and gained nothing.</color>",
+	"SHRINE_CHANCE_NAME": "Shrine of Ryan's God",
+	"SHRINE_CHANCE_CONTEXT": "Hope you're Ryan",
+	"SHRINE_CHANCE_SUCCESS_MESSAGE_2P": "<style=cShrine>Look who has a common name, you Ryan!</color>",
+	"SHRINE_CHANCE_SUCCESS_MESSAGE": "<style=cShrine>{0}'s name is Ryan!</color>",
+	"SHRINE_CHANCE_FAIL_MESSAGE_2P": "<style=cShrine>You are not Ryan.</color>",
+	"SHRINE_CHANCE_FAIL_MESSAGE": "<style=cShrine>{0} is not Ryan.</color>",
 
 	"SHRINE_BOSS_NAME": "Shrine of the Mountain",
-	"SHRINE_BOSS_CONTEXT": "Pray to Shrine of the Mountain",
-	"SHRINE_BOSS_USE_MESSAGE_2P": "<style=cShrine>Neuron Activation</color>",
-	"SHRINE_BOSS_USE_MESSAGE": "<style=cShrine>{0} activated their neurons</color>",
+	"SHRINE_BOSS_CONTEXT": "neuron activation",
+	"SHRINE_BOSS_USE_MESSAGE_2P": "<style=cShrine>You have invited the challenge of the Mountain..</color>",
+	"SHRINE_BOSS_USE_MESSAGE": "<style=cShrine>{0} has invited the challenge of the Mountain..</color>",
 	"SHRINE_BOSS_BEGIN_TRIAL": "<style=cShrine>Let the challenge of the Mountain... begin!</style>",
 	"SHRINE_BOSS_END_TRIAL": "<style=cShrine>Your bravery is rewarded!</style>",
 
-	"SHRINE_RESTACK_NAME": "Shrine of Order",
-	"SHRINE_RESTACK_CONTEXT": "Offer to Shrine of Order",
-	"SHRINE_RESTACK_USE_MESSAGE_2P": "<style=cShrine>You have been... sequenced.</color>",
-	"SHRINE_RESTACK_USE_MESSAGE": "<style=cShrine>{0} is... sequenced.</color>",
+	"SHRINE_RESTACK_NAME": "Shrine of Chandler",
+	"SHRINE_RESTACK_CONTEXT": "Ask for organization",
+	"SHRINE_RESTACK_USE_MESSAGE_2P": "<style=cShrine>Chandler doubts you'll like this.</color>",
+	"SHRINE_RESTACK_USE_MESSAGE": "<style=cShrine>{0} was doubted by Chandler.</color>",
 
 	"SHRINE_GOLDSHORES_NAME": "Altar of Gold",
 	"SHRINE_GOLDSHORES_CONTEXT": "Offer to Altar of Gold",
 
-	"SHRINE_COMBAT_NAME": "Shrine of Combat",
-	"SHRINE_COMBAT_CONTEXT": "Pray to Shrine of Combat",
-	"SHRINE_COMBAT_USE_MESSAGE_2P": "<style=cShrine>You have summoned {1}s to fight.</color>",
-	"SHRINE_COMBAT_USE_MESSAGE": "<style=cShrine>{0} has summoned {1}s to fight.</color>",
+	"SHRINE_COMBAT_NAME": "Shrine of Fun",
+	"SHRINE_COMBAT_CONTEXT": "Have some fun",
+	"SHRINE_COMBAT_USE_MESSAGE_2P": "<style=cShrine>You have summoned {1}s for fun.</color>",
+	"SHRINE_COMBAT_USE_MESSAGE": "<style=cShrine>{0} has summoned {1}s for fun.</color>",
 
 	"SHRINE_PROTECTION_NAME": "Shrine of Warding",
 	"SHRINE_PROTECTION_CONTEXT": "Pray to Shrine of Warding",
@@ -150,6 +156,18 @@
 	//MISC
 	"YOUNG_TELEPORTER_NAME": "Teleporter Sapling",
 	"YOUNG_TELEPORTER_CONTEXT": "Activate Teleporter Sapling",
+
+	"MOON_BATTERY_SOUL_NAME" : "Pillar of Soul",
+	"MOON_BATTERY_SOUL_CONTEXT" : "Activate Pillar",
+
+	"MOON_BATTERY_BLOOD_NAME" : "Pillar of Blood",
+	"MOON_BATTERY_BLOOD_CONTEXT" : "Activate Pillar",
+
+	"MOON_BATTERY_DESIGN_NAME" : "Pillar of Design",
+	"MOON_BATTERY_DESIGN_CONTEXT" : "Activate Pillar",
+
+	"MOON_BATTERY_MASS_NAME" : "Pillar of Mass",
+	"MOON_BATTERY_MASS_CONTEXT" : "Activate Pillar",
 
 	"LOCKEDMAGE_NAME" : "Survivor",
 	"LOCKEDMAGE_CONTEXT" : "Free the survivor",
@@ -206,11 +224,12 @@
 	"COST_MONEY_FORMAT": "${0}",
 	"COST_PERCENTHEALTH_FORMAT": "{0}% HP",
 	"COST_LUNARCOIN_FORMAT": " <sprite name=\"LunarCoin\" tint=1>{0}",
-	"COST_ITEM_FORMAT": "{0} Items",
+	"COST_ITEM_FORMAT": "{0} Item(s)",
 	"COST_LUNAR_FORMAT": "{0} Lunar",
 	"COST_EQUIPMENT_FORMAT": "{0} Equipment",
 	"COST_VOLATILEBATTERY_FORMAT": "{0} Fuel Array",
 	"COST_ARTIFACTSHELLKILLERITEM_FORMAT" : "{0} Artifact Key",
+	"COST_TREASURECACHEITEM_FORMAT": "{0} Rusted Key",
 	"FIREBALL_VEHICLE_EXIT_CONTEXT" : "Detonate",
 
 	"ARTIFACT_TRIAL_CONTROLLER_NAME" : "Unknown Artifact",
@@ -233,5 +252,8 @@
 
 	"DROPSHIP_NAME" : "UES Dropship",
 	"DROPSHIP_CONTEXT" : "Escape",
+
+	"MOON_ELEVATOR_NAME" : "Platform",
+	"MOON_ELEVATOR_CONTEXT" : "Activate platform",
 	}
 }

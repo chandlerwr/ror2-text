@@ -57,9 +57,9 @@
 	    "INFINITETOWER_ADD_ITEM" : "<style=cWorldEvent>[WARNING] {1} has been integrated into the Simulacrum...!</style>",
 
         "INFINITETOWER_OBJECTIVE_AWAITINGACTIVATION" : "Activate the Focus",
-        "INFINITETOWER_OBJECTIVE_ACTIVE" : "Survive..",
+        "INFINITETOWER_OBJECTIVE_ACTIVE" : "Don't die lmao",
         "INFINITETOWER_OBJECTIVE_TRAVEL" : "Follow the Focus",
-        "INFINITETOWER_OBJECTIVE_PORTAL" : "Enter the Portal",
+        "INFINITETOWER_OBJECTIVE_PORTAL" : "We are <style=cWorldEvent>leaving</style>",
 
 	    "INFINITE_TOWER_SAFE_WARD_NAME" : "Assessment Focus",
 	    "INFINITE_TOWER_SAFE_WARD_CONTEXT" : "Begin Assessment",

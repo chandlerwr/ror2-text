@@ -19,6 +19,6 @@
 		"CHARACTER_DESCRIPTION_AND_UNLOCK_FORMAT" : "{0}\n\n{1}",
 
 		"RANDOM_VOTE_NAME" : "Randomize",
-		"RANDOM_VOTE_DESCRIPTION" : "Vote for random choices.",
+		"RANDOM_VOTE_DESCRIPTION" : "Vote for random choices."
 	}
 }

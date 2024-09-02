@@ -69,19 +69,19 @@
 		"NEWT_ANNOY_6": "Stop stop. Bad bad.",
 
 
-		"FAMILY_GOLEM" : "<style=cWorldEvent>[WARNING] The earth rumbles and groans with mysterious energies..</style>",
-		"FAMILY_JELLYFISH" : "<style=cWorldEvent>[WARNING] The air crackles and arcs..</style>",
-		"FAMILY_WISP" : "<style=cWorldEvent>[WARNING] The air begins to burn..</style>",
-		"FAMILY_BEETLE" : "<style=cWorldEvent>[WARNING] The ground begins to shift beneath you..</style>",
-		"FAMILY_IMP" : "<style=cWorldEvent>[WARNING] A tear in the fabric of the universe..</style>",
-		"FAMILY_LEMURIAN" : "<style=cWorldEvent>[WARNING] The ground's temperature begins to rise..</style>",
-		"FAMILY_PARENT" : "<style=cWorldEvent>[WARNING] The earth shifts and changes..</style>",
-		"FAMILY_MUSHRUM" : "<style=cWorldEvent>[WARNING] The ground grows sickly..</style>",
-		"FAMILY_LUNAR" : "<style=cWorldEvent>[WARNING] The bulwark begin to falter..</style>",
-		"FAMILY_ACIDLARVA" : "<style=cWorldEvent>[WARNING] The air smells foul..</style>",
-		"FAMILY_GUP" : "<style=cWorldEvent>[WARNING] The air smells of sweet strawberries..</style>",
-		"FAMILY_CONSTRUCT" : "<style=cWorldEvent>[WARNING] You have tripped an ancient alarm..</style>",
-		"FAMILY_VOID" : "<style=cWorldEvent>[WARNING] The Void has become curious..</style>",
+		"FAMILY_GOLEM" : "<style=cWorldEvent>[WARNING] ROCK ROCK ROCK ROCK ROCK</style>",
+		"FAMILY_JELLYFISH" : "<style=cWorldEvent>[WARNING] JELLY JELLY JELLY JELLY JELLY</style>",
+		"FAMILY_WISP" : "<style=cWorldEvent>[WARNING] WISP WISP WISP WISP WISP</style>",
+		"FAMILY_BEETLE" : "<style=cWorldEvent>[WARNING] BUG BUG BUG BUG BUG</style>",
+		"FAMILY_IMP" : "<style=cWorldEvent>[WARNING] DEMON DEMON DEMON DEMON DEMON</style>",
+		"FAMILY_LEMURIAN" : "<style=cWorldEvent>[WARNING] LIZARD LIZARD LIZARD LIZARD LIZARD</style>",
+		"FAMILY_PARENT" : "<style=cWorldEvent>[WARNING] PARENT PARENT PARENT PARENT PARENT</style>",
+		"FAMILY_MUSHRUM" : "<style=cWorldEvent>[WARNING] SHROOM SHROOM SHROOM SHROOM SHROOM</style>",
+		"FAMILY_LUNAR" : "<style=cWorldEvent>[WARNING] LUNAR LUNAR LUNAR LUNAR LUNAR</style>",
+		"FAMILY_ACIDLARVA" : "<style=cWorldEvent>[WARNING] LARVA LARVA LARVA LARVA LARVA</style>",
+		"FAMILY_GUP" : "<style=cWorldEvent>[WARNING] GUP GUP GUP GUP GUP GUP GUP GUP GUP..</style>",
+		"FAMILY_CONSTRUCT" : "<style=cWorldEvent>[WARNING] XI XI XI XI XI XI XI XI XI</style>",
+		"FAMILY_VOID" : "<style=cWorldEvent>[WARNING] VOID VOID VOID VOID VOID</style>",
 
 		"PLAYER_DEATH_QUOTE_0_2P" : "You are dead.",
 		"PLAYER_DEATH_QUOTE_0" : "{0} is dead.",
@@ -193,9 +193,9 @@
 		"PORTAL_DEEPVOID_WILL_OPEN":"<style=cWorldEvent>A darkly purple orb appears..</style>",
 		"PORTAL_DEEPVOID_OPEN" : "<style=cWorldEvent>A darkly purple portal appears..</style>",
 
-		"PET_FROG" : "{0} pet the frog.",
-		"PET_FROG_2P" : "You pet the frog.",
+		"PET_FROG" : "{0} had decided its time for FRUG",
+		"PET_FROG_2P" : "time for FRUG.",
 
-		"VOIDCAMP_COMPLETE" : "<style=cWorldEvent>The Void Seed collapses.</style>",
+		"VOIDCAMP_COMPLETE" : "<style=cWorldEvent>Wow, all gone already?.</style>",
 	}
 }

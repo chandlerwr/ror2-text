@@ -13,12 +13,6 @@
 		"STAT_TOTAL" : "Total",
 		"STAT_CONTINUE" : "Continue",
 		"STAT_INFO" : "Info",
-		"STAT_TOTAL_COMPLETION" : "Total Completion",
-		"STAT_RECORDS" : "Records",
-		"STAT_PLAYSTYLE" : "Playstyle",
-		"STAT_COMPLETION" : "Completion",
-		"STAT_TOTALS" : "Totals",
-		"STAT_SURVIVOR_STATS" : "Survivor Stats",
 
 		"STATNAME_TOTALTIMEALIVE": "Time Alive",
 		"STATNAME_TOTALKILLS": "Kills",
@@ -48,7 +42,7 @@
 		"STATNAME_TOTALDRONESPURCHASED": "Drones Repaired",
 		"STATNAME_TOTALTURRETSPURCHASED": "Turrets Repaired",
 		"STATNAME_TOTALCROCOINFECTIONSINFLICTED": "Infections Inflicted",
-		"STATNAME_TOTALDEATHSWHILEBURNING": "Fiery Deaths",
+		"STATNAME_TOTALDEATHSWHILEBURNING": "Firey Deaths",
 
 		"STATNAME_NEMESIS": "Nemesis",
 		"STATNAME_FAVORITEEQUIPMENT": "Favorite Equipment",
@@ -73,7 +67,12 @@
 		"PERBODYSTATNAME_DEATHSAS": "Deaths As",
 		"PERBODYSTATNAME_DEATHSFROM": "Deaths From",
 		"PERBODYSTATNAME_TIMESPICKED": "Times Picked",
-
 		
+		"STAT_TOTAL_COMPLETION" : "Total Completion",
+		"STAT_RECORDS" : "Records",
+		"STAT_PLAYSTYLE" : "Playstyle",
+		"STAT_COMPLETION" : "Completion",
+		"STAT_TOTALS" : "Totals",
+		"STAT_SURVIVOR_STATS" : "Survivor Stats"
 	}
 }

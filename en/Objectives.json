@@ -33,5 +33,6 @@
 		"OBJECTIVE_VOIDCAMP": "Clear the <style=cIsVoid>Void Seed</style>.\n{0} monster(s) remaining",
 		"OBJECTIVE_VOID_BATTERY" : "Charge the <style=cIsVoid>Deep Void Signals</style> ({0}%)",
 		"OBJECTIVE_VOID_BATTERY_OOB": "Enter the <style=cIsVoid>Deep Void Signal's radius!</style> ({0}%)",
+		"OBJECTIVE_COLOSSUS_EVENT_BEGIN": "Earn the Favor of the Colossus"
 	}
 }

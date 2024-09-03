@@ -7,6 +7,8 @@
 		"PLAYER_PICKUP_2P": "<style=cEvent>You picked up {1}{2}</color>",
 		"PLAYER_CONNECTED": "<style=cEvent>{0} connected.</color>",
 		"PLAYER_DISCONNECTED": "<style=cEvent>{0} disconnected.</color>",
+		"PLAYER_PAUSED": "<style=cEvent>{0} has paused the game.</color>",
+		"PLAYER_RESUMED": "<style=cEvent>{0} has resumed the game.</color>",
 		"PLAYER_ACTIVATED_TELEPORTER_2P": "<style=cEvent>You activated the <style=cDeath>Teleporter <sprite name=\"TP\" tint=1></style>.</style>",
 		"PLAYER_ACTIVATED_TELEPORTER": "<style=cEvent>{0} activated the <style=cDeath>Teleporter <sprite name=\"TP\" tint=1></style>.</style>",
 		"PLAYER_PING_DEFAULT" : "<style=cIsHealing>{0} wants to move here.</style>",
@@ -59,15 +61,12 @@
 		"BAZAAR_SEER_SULFURPOOLS" : "<style=cWorldEvent>You dream of brimstone.</style>",
 		"BAZAAR_SEER_VOIDSTAGE" : "<style=cWorldEvent>You dream of potential.</style>",
 
-
-
-		"NEWT_ANNOY_1": "Again again. Everytime.",
-		"NEWT_ANNOY_2": "Reshape. Out of forever.",
-		"NEWT_ANNOY_3": "Bad bad. Do not bother.",
-		"NEWT_ANNOY_4": "Bad. Will reshape into forget.",
+		"NEWT_ANNOY_1": "Bro chill.",
+		"NEWT_ANNOY_2": "NO SOUP FOR YOU!",
+		"NEWT_ANNOY_3": "I would not trust you with my taxes.",
+		"NEWT_ANNOY_4": "Cry more, liberal.",
 		"NEWT_ANNOY_5": "You have no bitches.",
 		"NEWT_ANNOY_6": "Stop stop. Bad bad.",
-
 
 		"FAMILY_GOLEM" : "<style=cWorldEvent>[WARNING] ROCK ROCK ROCK ROCK ROCK</style>",
 		"FAMILY_JELLYFISH" : "<style=cWorldEvent>[WARNING] JELLY JELLY JELLY JELLY JELLY</style>",
@@ -196,6 +195,6 @@
 		"PET_FROG" : "{0} had decided its time for FRUG",
 		"PET_FROG_2P" : "time for FRUG.",
 
-		"VOIDCAMP_COMPLETE" : "<style=cWorldEvent>Wow, all gone already?.</style>",
+		"VOIDCAMP_COMPLETE" : "<style=cWorldEvent>Wow, all gone already?</style>"
 	}
 }

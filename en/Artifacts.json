@@ -64,6 +64,6 @@
 		"ARTIFACT_FRIENDLYFIRE_DESCRIPTION": "Friendly fire is enabled for both survivors and monsters alike.",
 
 		"ARTIFACT_NONE_NAME" : "Disable Artifact",
-		"ARTIFACT_NONE_DESCRIPTION" : "Disables the selected Artifact.",
+		"ARTIFACT_NONE_DESCRIPTION" : "Disables the selected Artifact."
 	}
 }

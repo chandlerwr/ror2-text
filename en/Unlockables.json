@@ -1,5 +1,5 @@
 {
-	strings:
+	"strings":
 	{
 		"NEW_UNLOCKABLE" : "NEW",
 		"LOCKED" : "LOCKED",
@@ -82,6 +82,6 @@
 		"UNLOCKABLE_LOG_STAGES_SNOWYFOREST" : "Environment Log: Siphoned Forest",
 		"UNLOCKABLE_LOG_STAGES_SULFURPOOLS" : "Environment Log: Sulfur Pools",
 		"UNLOCKABLE_LOG_STAGES_VOIDSTAGE" : "Environment Log: Void Locus",
-		"UNLOCKABLE_LOG_STAGES_VOIDRAID" : "Environment Log: The Planetarium",
+		"UNLOCKABLE_LOG_STAGES_VOIDRAID" : "Environment Log: The Planetarium"
 	}
 }

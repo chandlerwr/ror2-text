@@ -25,8 +25,6 @@
 
 		"OPTION_AUTOREVERT_DIALOG_DESCRIPTION": "Changes will be reverted in {0} seconds. Keep these changes?",
 		
-
-		//[AUDIO]
 		"OPTION_MASTERVOLUME": "Master Volume:",
 		"OPTION_MASTERVOLUME_DESCRIPTION": "The volume of the overall game.",
 
@@ -39,7 +37,6 @@
 		"OPTION_AUDIOFOCUS": "Mute When Unfocused:",
 		"OPTION_AUDIOFOCUS_DESCRIPTION" : "Whether or not audio should be muted when the game window is not in focus.",
 
-		//[VIDEO]
 		"OPTION_VSYNC": "V-Sync:",
 		"OPTION_VSYNC_DESCRIPTION": "Eliminates screen tearing by synchronizing the game's framerate to the monitor's refresh rate. Only enable this setting if you see screen tearing.",
 		"OPTION_VSYNC_NONE": "Off",
@@ -67,7 +64,7 @@
 		"OPTION_HUDSCALE" : "HUD Scale",
 		"OPTION_HUDSCALE_DESCRIPTION": "Increase or decrease the size of the in-game UI elements, like healthbars and icons.",
 
-		//[GRAPHICS]
+
 		"OPTION_SHADOW_TYPE": "Shadow Type:",
 		"OPTION_SHADOW_TYPE_DESCRIPTION": "This determines which type of shadows should be used. Soft shadows are smoother, but require more processing power. Disabling shadows will dramatically improve performance.",
 		"OPTION_SHADOW_TYPE_OFF": "Off",
@@ -131,7 +128,6 @@
 		"OPTION_MSAA": "UI Anti-Aliasing:",
 		"OPTION_MSAA_DESCRIPTION": "Reduces jaggies and aliasing on UI elements via MSAA. Lowering this will increase GPU performance.",
 
-		//[Gamepad]
 		"OPTION_STICK_LOOK_SENSITIVITY": "<style=cUserSetting>Look Sensitivity</style>",
 		"OPTION_STICK_LOOK_SENSITIVITY_DESCRIPTION": "How quickly the camera rotates with the control stick.",
 		"OPTION_STICK_LOOK_SCALE_X": "<style=cUserSetting>Horizontal Look Scale</style>",
@@ -142,10 +138,35 @@
 		"OPTION_STICK_LOOK_INVERT_X_DESCRIPTION": "Inverts horizontal rotation of the camera.",
 		"OPTION_STICK_LOOK_INVERT_Y": "<style=cUserSetting>Vertical Look Invert</style>",
 		"OPTION_STICK_LOOK_INVERT_Y_DESCRIPTION": "Inverts vertical rotation of the camera.",
+		"OPTION_INPUT_AIM_ASSIST_SENSITIVITY": "<style=cUserSetting>Input Aim Assist Sensitivity</style>",
+		"OPTION_INPUT_AIM_ASSIST_SENSITIVITY_DESCRIPTION": "How aggressively aim assist affects the control stick when targeting enemies. Off when set to 0.",
+		"OPTION_TRAJECTORY_AIM_ASSIST_SENSITIVITY": "<style=cUserSetting>Trajectory Aim Assist Sensitivity</style>",
+        "OPTION_TRAJECTORY_AIM_ASSIST_SENSITIVITY_DESCRIPTION": "How strongly ranged attacks will adjust their trajectories to hit targets within a certain radius of their original fire path, making enemies easier to hit. Off when set to 0.",
 		"OPTION_GAMEPAD_VIBRATION_SCALE": "<style=cUserSetting>Vibration Scale</style>",
 		"OPTION_GAMEPAD_VIBRATION_SCALE_DESCRIPTION": "Intensity of controller vibration.",
+		"OPTION_AIM_ASSIST_ENABLED" : "<style=cUserSetting>Enable Aim Assist</style>",
+        "OPTION_AIM_ASSIST_ENABLED_DESCRIPTION" : "Enables control stick assistance when targeting enemies.",
+        "OPTION_AIM_ASSIST_SENSITIVITY" : "<style=cUserSetting>Aim Assist Sensitivity</style>",
+        "OPTION_AIM_ASSIST_SENSITIVITY_DESCRIPTION" : "How aggressive aim assist affects the control stick.",
+		"OPTION_GYRO_ENABLED" : "<style=cUserSetting>Enable Gyroscope Aiming</style>",
+        "OPTION_GYRO_ENABLED_DESCRIPTION" : "Allows you to aim by rotating your controller.",
+        "OPTION_GYRO_SPRINT_DISABLE" : "<style=cUserSetting>Disable Gyroscope while Sprinting</style>",
+        "OPTION_GYRO_SPRINT_DISABLE_DESCRIPTION" : "Disables gyroscope aiming while sprinting.",
+        "OPTION_GYRO_MELEE_SPRINT_DISABLE" : "<style=cUserSetting>Disable Gyroscope while Sprinting (Melee)</style>",
+        "OPTION_GYRO_MELEE_SPRINT_DISABLE_DESCRIPTION" : "Disables gyroscope aiming for melee survivors while sprinting.",
+        "OPTION_GYRO_HUNTRESS_SPRINT_DISABLE" : "<style=cUserSetting>Disable Gyroscope while Sprinting (Huntress)</style>",
+        "OPTION_GYRO_HUNTRESS_SPRINT_DISABLE_DESCRIPTION" : "Disables gyroscope aiming for Huntress while sprinting.",
+        "OPTION_GYRO_LOOK_SENSITIVITY" : "<style=cUserSetting>Gyroscope Sensitivity</style>",
+        "OPTION_GYRO_LOOK_SENSITIVITY_DESCRIPTION" : "How quickly the camera rotates when using gyroscope aiming.",
+        "OPTION_GYRO_LOOK_SCALE_X" : "<style=cUserSetting>Horizontal Gyroscope Scale</style>",
+        "OPTION_GYRO_LOOK_SCALE_X_DESCRIPTION" : "How much to scale the horizontal rotation rate of the camera when using gyroscope aiming.",
+        "OPTION_GYRO_LOOK_SCALE_Y" : "<style=cUserSetting>Vertical Gyroscope Scale</style>",
+        "OPTION_GYRO_LOOK_SCALE_Y_DESCRIPTION" : "How much to scale the vertical rotation rate of the camera when using gyroscope aiming.",
+        "OPTION_GYRO_INVERT_X" : "<style=cUserSetting>Horizontal Gyroscope Invert</style>",
+        "OPTION_GYRO_INVERT_X_DESCRIPTION" : "Inverts horizontal rotation for gyroscope aiming.",
+        "OPTION_GYRO_INVERT_Y" : "<style=cUserSetting>Vertical Gyroscope Invert</style>",
+        "OPTION_GYRO_INVERT_Y_DESCRIPTION" : "Inverts vertical rotation for gyroscope aiming.",
 
-		//[Keyboard+Mouse]
 		"OPTION_MOUSE_LOOK_SENSITIVITY": "<style=cUserSetting>Look Sensitivity</style>",
 		"OPTION_MOUSE_LOOK_SENSITIVITY_DESCRIPTION": "How quickly the camera rotates with the mouse.",
 		"OPTION_MOUSE_LOOK_SCALE_X": "<style=cUserSetting>Horizontal Look Scale</style>",
@@ -156,19 +177,32 @@
 		"OPTION_MOUSE_LOOK_INVERT_X_DESCRIPTION": "Inverts horizontal rotation of the camera.",
 		"OPTION_MOUSE_LOOK_INVERT_Y": "<style=cUserSetting>Vertical Look Invert</style>",
 		"OPTION_MOUSE_LOOK_INVERT_Y_DESCRIPTION": "Inverts vertical rotation of the camera.",
-		
-		//[Gameplay]
+
 		"OPTION_SCREENSHAKE_SCALE": "<style=cUserSetting>Screen Shake Scale</style>",
 		"OPTION_SCREENSHAKE_SCALE_DESCRIPTION": "Intensity of screen shake.",
 
 		"OPTION_DAMAGENUMBERS": "Damage Numbers",
 		"OPTION_DAMAGENUMBERS_DESCRIPTION": "Enables floating damage numbers.",
+		
+		"OPTION_DIRECTIONAL_DAMAGE_INDICATOR": "Directional Damage Indicator Scale",
+		"OPTION_DIRECTIONAL_DAMAGE_INDICATOR_DESCRIPTION": "Intensity of directional damage indicator.",
 
 		"OPTION_SPRINT_SENSITIVITY_REDUCTION": "Sprint Sensitivity Reduction",
 		"OPTION_SPRINT_SENSITIVITY_REDUCTION_DESCRIPTION": "Enables reduced input sensitivity while sprinting.",
 
 		"OPTION_HUD": "In-Game HUD",
 		"OPTION_HUD_DESCRIPTION": "Enables the in-game HUD, i.e healthbars, item icons, skill icons.",
+		
+		"OPTION_HUD_SIZE" : "In-Game HUD Size",
+        "OPTION_HUD_SIZE_DESCRIPTION" : "Changes in-game HUD size.\nDefault: More space, smaller text.\nLarge: Bigger text and icons, more legible on smaller or distant screens.",
+        "OPTION_HUD_SIZE_DESCRIPTION_NX" : "Changes in-game HUD size.\nDefault: More space, smaller text.\nLarge: Bigger text and icons, more legible on smaller or distant screens.\nAuto: Uses Default while docked and Large while in Handheld mode.",
+        "OPTION_HUD_SIZE_DEFAULT" : "Default",
+        "OPTION_HUD_SIZE_LARGE" : "Large",
+        "OPTION_HUD_SIZE_AUTO" : "Auto",
+        "OPTION_HIDDEN" : "Locked",
+        "OPTION_HIDDEN_DESCRIPTION" : "Setting requires survivor(s) which are currently locked.",
+        "OPTION_MAGETOGGLEHOVER" : "<style=cUserSetting>Toggle Artificer Hover</style>",
+        "OPTION_MAGETOGGLEHOVER_DESCRIPTION" : "Enable and disable Artificer's ENV Suit hovering by tapping the jump button once instead of holding it.",
 
 		"OPTION_EXP_AND_MONEY_EFFECTS": "Exp and Money Effects",
 		"OPTION_EXP_AND_MONEY_EFFECTS_DESCRIPTION": "Enables particle effects for experience and money.",
@@ -178,7 +212,28 @@
 
 		"OPTION_SCREEN_DISTORTION" : "Screen Distortion",
 		"OPTION_SCREEN_DISTORTION_DESCRIPTION" : "Enables screen distortion effects in-game.",
-		//[Misc]
+		
+		"OPTION_UMBRELLA_FEATURES" : "Umbrella Features",
+		"OPTION_UMBRELLA_FEATURES_DESCRIPTION" : "Enables/disables all contained settings when checked/unchecked.",
+		
+		"OPTION_DIFFICULTY_BAR_FX" : "Increase Difficulty Bar Effects",
+		"OPTION_DIFFICULTY_BAR_FX_DESCRIPTION" : "Enables additional effects applied to the difficulty bar in-game to make difficulty changes more noticeable",
+		
+		"OPTION_TOGGLE_SCOREBOARD": "Toggle Inventory",
+		"OPTION_TOGGLE_SCOREBOARD_DESCRIPTION": "Enables the inventory to toggle on press instead of requiring the button to be held down.",
+		
+		"OPTION_INSPECT_FEATURE": "Enable Inspect",
+		"OPTION_INSPECT_FEATURE_DESCRIPTION": "Display an inspection window when opening the inventory to see details about items and objects.",
+		
+		"OPTION_INSPECT_AUTOPAUSE": "Pause On Inspect",
+		"OPTION_INSPECT_AUTOPAUSE_DESCRIPTION": "When inspecting an item or object, automatically pause the game. Only applies in single player.",
+		
+		"OPTION_TELEPORTER_PARTICLE_SCALING": "Enable Teleporter Particle Scaling",
+		"OPTION_TELEPORTER_PARTICLE_SCALING_DESCRIPTION": "Enables scaling of the teleporter particles with distance, making them easier to see from farther distances.",
+		
+		"OPTION_TELEPORTER_DISCOVERY_INDICATOR": "Enable Indicator Upon Teleporter Discovery",
+		"OPTION_TELEPORTER_DISCOVERY_INDICATOR_DESCRIPTION": "Enables the teleporter's positional indicator upon being discovered, either by ping or player proximity.",
+		
 		"OPTION_STEAM_RELAY_SERVER": "Steam Traffic Relay",
 		"OPTION_STEAM_RELAY_SERVER_DESCRIPTION": "By default, Steam is allowed to deliver your network traffic to other players via relay server. This is either to circumvent direct connection issues or to provide a potentially faster network route. Disabling this option will prevent your traffic from being delivered via relay server.",
 		"OPTION_INTRO_SKIP": "Skip Startup Intro",
@@ -194,5 +249,7 @@
 		"SETTINGS_PROFILE_NAME_FORMAT": "Settings - <style=cUserSetting>{0}</style>",
 
 		"OPTION_AUTOREVERT_DIALOG_TITLE" : "Keep Changes?",
+
+		"OPTION_DEFAULT_SETTINGS" : "Reset to Default"
 	}
 }

@@ -20,7 +20,10 @@
 		"HOSTGAMEPANEL_CUSTOM_TAGS_DESCRIPTION": "Optional tags for your game. Players can filter your lobby with tags.",
 
 		"HOSTGAMEPANEL_ALLOW_RULE_VOTING": "Allow Rule Voting",
-		"HOSTGAMEPANEL_ALLOW_RULE_VOTING_DESCRIPTION": "Whether or not players are allowed to vote for Difficulty, Artifacts, and more while in character selection.",
+		"HOSTGAMEPANEL_ALLOW_RULE_VOTING_DESCRIPTION": "Whether or not players are allowed to vote for Difficulty, Artifacts, and more while in character selection.", 
+		
+		"HOSTGAMEPANEL_ALLOW_MULTIPLAYER_PAUSE": "Allow Multiplayer Pause", 
+		"HOSTGAMEPANEL_ALLOW_MULTIPLAYER_PAUSE_DESCRIPTION": "Whether or not players are allowed to pause the game for themselves as well as other players in the lobby.",
 
 		"HOSTGAMEPANEL_LOBBY_TYPE": "Lobby Visibility",
 		"HOSTGAMEPANEL_LOBBY_TYPE_DESCRIPTION": "Whether or not the game is Public, Private, or Friends Only.\n\nMust be set to Public to be displayed for other users.",

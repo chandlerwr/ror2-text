@@ -341,7 +341,7 @@
 		"ACHIEVEMENT_CAPTAINVISITSEVERALSTAGES_DESCRIPTION": "As Captain, visit 10 different environments in a single run.",
 
 		"ACHIEVEMENT_CAPTAINSUPPLYDROPFINALE_NAME": "Captain: Smushed",
-		"ACHIEVEMENT_CAPTAINSUPPLYDROPFINALE_DESCRIPTION": "As Captain, kill the final boss using a Supply Beacon",
+		"ACHIEVEMENT_CAPTAINSUPPLYDROPFINALE_DESCRIPTION": "As Captain, kill the final boss using a Supply Beacon.",
 
 		"ACHIEVEMENT_BANDIT2CONSECUTIVERESET_NAME": "Bandit: Classic Man",
 		"ACHIEVEMENT_BANDIT2CONSECUTIVERESET_DESCRIPTION": "As Bandit, successfully use 'Lights Out' to reset your cooldowns 15 times in a row.",
@@ -360,8 +360,10 @@
 
 		"ACHIEVEMENT_RAILGUNNERAIRBORNEMULTIKILL_NAME": "Railgunner: Trickshot",
 		"ACHIEVEMENT_RAILGUNNERAIRBORNEMULTIKILL_DESCRIPTION": "As Railgunner, get 3 kills with a single Supercharge shot while airborne.",
+		
 
 		"ACHIEVEMENT__NAME": "",
-		"ACHIEVEMENT__DESCRIPTION": "",
+		"ACHIEVEMENT__DESCRIPTION": ""
+		
 	}
 }

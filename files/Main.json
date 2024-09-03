@@ -53,7 +53,8 @@
 		"DESC_MULTIPLAYER_JOIN": "Try to join a specific Lobby ID using your Clipboard content.",
 		"DESC_MULTIPLAYER_INVITE": "Invite players from your Steam friends list to join your Lobby.",
 
-		"TITLE_WEEKLY" : "Prismatic Trials",
+		"TITLE_WEEKLY" : "speedrun.com",
+		"TITLE_WEEKLY_DESC" : "nobody plays this.",
 		"TITLE_WEEKLY_START" : "Start Prismatic Trials",
 		"WEEKLY_RUN_NO_ENTRY" : "You must complete a Prismatic Trial to see the time of other users.",
 		"WEEKLY_RUN_NEXT_CYCLE_COUNTDOWN_FORMAT" : "Prismatic Trials - Next seed in {0:00}:{1:00}:{2:00}",

@@ -42,23 +42,28 @@ def check_files():
         keys.update(json.load(f)['keys'])
     print(f"keys.json had {len(keys)} keys.")
 
+    files = set()
     for f in os.scandir('files'):
         if f.is_file():
             try:
                 with open(f, encoding="utf-8-sig") as txt:
-                    keys -= set(json.load(txt)['strings'].keys())
+                    files.update(json.load(txt)['strings'].keys())
             except (UnicodeDecodeError, json.decoder.JSONDecodeError):
                 print(f"Failed to read '{f}'. Exiting...")
                 exit()
     
+    files_only = files - keys
+    keys = keys - files
+
     if len(keys) > 0:
         print(f"Failed to find the following {len(keys)} language keys in files:")
         for k in keys:
             print(k)
-        return False
-    else:
-        print("Files are up to date.")
-        return True
+    if len(files_only) > 0:
+        print(f"Found {len(files_only)} extra language keys in files:")
+        for k in files_only:
+            print(k)
+    return len(keys) == 0
 
 
 def compile_files():

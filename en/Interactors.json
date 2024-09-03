@@ -258,8 +258,8 @@
 	"MOON_BATTERY_MASS_NAME" : "Pillar of Mass",
 	"MOON_BATTERY_MASS_CONTEXT" : "Activate Pillar",
 
-	"VENDING_MACHINE_NAME" : "Eclipse Zero Vending Machine",
-	"VENDING_MACHINE_CONTEXT" : "Purchase Refreshing Beverage",
+	"VENDING_MACHINE_NAME" : "TarCola Vending Machine",
+	"VENDING_MACHINE_CONTEXT" : "Slurrrrrp",
 
 	"LOCKEDMAGE_NAME" : "Survivor",
 	"LOCKEDMAGE_CONTEXT" : "Free the survivor",
@@ -361,7 +361,7 @@
 	"LUNAR_TELEPORTER_BEGIN_CONTEXT": "Activate Primordial Teleporter..?",
 	"LUNAR_TELEPORTER_END_CONTEXT": "Enter Primordial Teleporter",
 
-	"SCRAPPER_NAME" : "Scrapper",
+	"SCRAPPER_NAME" : "Crapper",
 	"SCRAPPER_CONTEXT" : "Scrap Items",
 	"SCRAPPER_POPUP_TEXT" : "<b>Scrapper V1-4</b>\n<i><style=cSub><size=75%>Turn anything into recyclable scrap!</size></style></i>",
 	"SCRAPPER_DESCRIPTION": "Allows survivors to sacrifice items in exchange for pieces of scrap the same rarity as the sacrificed item.",
